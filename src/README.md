@@ -41,3 +41,11 @@ ml_week1_project/
    ├─ preprocess.py
    ├─ train_model.py
    └─ predict_single.py
+## API (FastAPI)
+
+The project also exposes the trained Logistic Regression model as a simple FastAPI service.
+
+Run the API:
+
+```bash
+uvicorn src.api_app:app --reload
