@@ -49,3 +49,10 @@ Run the API:
 
 ```bash
 uvicorn src.api_app:app --reload
+## API usage
+
+open /docs
+
+example JSON request (the "features": {...} format)
+
+mention status codes: 200/400/422
